@@ -1,0 +1,20 @@
+{
+  "name": "typescript-learning",
+  "version": "1.0.0",
+  "description": "My learning journey of typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc --noEmitOnError -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codewitgabi/typescript-learning.git"
+  },
+  "author": "Gabriel Michael Ojomakpene (codewitgabi)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codewitgabi/typescript-learning/issues"
+  },
+  "homepage": "https://github.com/codewitgabi/typescript-learning#readme"
+}
