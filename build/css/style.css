@@ -19,3 +19,36 @@ a {
 .title {
   margin-bottom: 1em;
 }
+
+/* Game */
+#game {
+  width: 500px;
+  padding: 1em;
+  background: #303030;
+  border-radius: 4px;
+  margin-top: 2em;
+}
+@media (max-width: 768px){
+  #game {
+    width: initial;
+  }
+}
+#game input, #game-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  outline: 1px solid teal;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 0.5em 0;
+  transition: .2s;
+}
+#game-btn:hover, #game input:hover {
+  outline: 3px solid teal;
+}
+#result {
+  background: #27282c;
+  padding: 1em;
+  text-align: center;
+  margin-bottom: 1em;
+}

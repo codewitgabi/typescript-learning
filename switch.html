@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SWITCH</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .switch {
+      width: 100px;
+      height: 40px;
+      background: #27282c;
+      margin: 5px;
+      position: relative;
+    }
+    .slider {
+      width: 50%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: teal;
+      transition: .25s;
+    }
+    .slider.on {
+      left: 50%;
+    }
+    .switch p {
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 99;
+    }
+  </style>
+</head>
+<body>
+  <div class="switch">
+    <div class="slider"></div>
+    <p id="state">
+      OFF
+    </p>
+  </div>
+  <div class="switch">
+    <div class="slider"></div>
+    <p id="state">
+      OFF
+    </p>
+  </div>
+  <div class="switch">
+    <div class="slider"></div>
+    <p id="state">
+      OFF
+    </p>
+  </div>
+  <script src="./build/compiled-js/switch.js"></script>
+</body>
+</html>

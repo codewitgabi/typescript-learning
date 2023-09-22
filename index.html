@@ -8,9 +8,26 @@
   <title id="title">TypeScript Learning</title>
 </head>
 <body>
-  <h1 id="title">Welcome to My TypeScript Journey</h1>
+  <h1 class="title">Welcome to My TypeScript Journey</h1>
   <a href="" id="repo-link">Link To Repo</a>
   <a href="" id="null-link">Random Link</a>
-  <script src="./build/compiled-js/types.js"></script>
+
+  <div id="game">
+    <div id="result">
+      Make your Guess
+    </div>
+    <form action="" id="game-form">
+      <input
+      type="number"
+      name="guess"
+      id="guess"
+      placeholder="Enter your guess...."
+      required
+      />
+    <button id="game-btn">Try</button>
+  </form>
+</div>
+<script src="./build/compiled-js/types.js"></script>
+<script src="./build/compiled-js/guess_game.js"></script>
 </body>
 </html>
