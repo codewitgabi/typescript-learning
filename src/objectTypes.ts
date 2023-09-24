@@ -125,3 +125,27 @@ function readOnlyTuple(tup: readonly [...data: number[], string, boolean]) {
 }
 
 console.log(readOnlyTuple([2, 6, 8, 9, "str", true]))
+
+/**
+ * Index Signatures. 
+ * They are used to build dynamic objects where we don't know all the keys to be passed in our object.
+ */
+
+interface Signature {
+  [index: string]: number | string | Array<any>;
+  name: string;
+  age: number;
+}
+
+let sig: Signature;
+sig = {
+  name: "codewitgabi",
+  age: 10,
+  stack: [
+    "Python", "JavaScript", "Django", "TypeScript", "Nodejs", "TailwindCSS", "etc"
+  ]
+} // valid
+
+for (let data in sig) {
+  console.log(data, sig[data])
+}

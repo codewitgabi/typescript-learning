@@ -47,3 +47,14 @@ function readOnlyTuple(tup) {
     return tup;
 }
 console.log(readOnlyTuple([2, 6, 8, 9, "str", true]));
+let sig;
+sig = {
+    name: "codewitgabi",
+    age: 10,
+    stack: [
+        "Python", "JavaScript", "Django", "TypeScript", "Nodejs", "TailwindCSS", "etc"
+    ]
+}; // valid
+for (let data in sig) {
+    console.log(data, sig[data]);
+}
