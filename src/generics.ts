@@ -18,7 +18,7 @@ interface Lengthconstraint {
   length: number;
 }
 
-const getObjectLength = <Type extends Lengthconstraint>(arg: Type): number => {
+const getObjectLength = <Type extends Lengthconstraint>(arg: Type): Lengthconstraint["length"] => {
   return arg.length
 }
 

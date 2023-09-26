@@ -10,7 +10,7 @@ function greetTool(userName: string) {
 
 /**
  * Call Signatures. 
- * They allow you to asd properties to functions.
+ * They allow you to add properties to functions.
  */
 
 interface DescribeableFunc {

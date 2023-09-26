@@ -24,5 +24,5 @@ console.log(square(19))
  */
 
 let SVal: ReturnType<typeof square>;
-// SVal = "Hello" // string cannot ne assigned to a number type
+// SVal = "Hello" // string cannot be assigned to a number type
 SVal = 12;
